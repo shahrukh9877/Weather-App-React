@@ -1,0 +1,52 @@
+
+.main_container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .child {
+    text-align: center;
+    height: 80vh;
+    width: 60%;
+    border-radius: 5px;
+    background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  input[type='text'] {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+  }
+  
+  .center_text {
+    text-align: center;
+  }
+  
+  .temp_box {
+    margin-top: 20px;
+    filter:opacity(40%);
+    border-radius: 5px;
+    background-color: rgb(255, 240, 240);
+    padding: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #center_temp {
+    text-align: center;
+    color: black;
+    filter:opacity(100%);
+
+  }
+  
